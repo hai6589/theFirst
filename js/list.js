@@ -46,7 +46,6 @@ function deleteStd(id){
 }
 
 let btn = document.getElementById('btn-back');
-console.log(btn);
 btn.onclick = function () {
-    window.location = './index.html';
+    window.location = './main.html';
 }

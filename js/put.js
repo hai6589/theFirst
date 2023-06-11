@@ -9,6 +9,10 @@ var message = document.getElementById('message2');
 var idHv ;
 let url = 'https://646b70fd7d3c1cae4ce3cdba.mockapi.io/hocvien'
 
+let btn2 = document.getElementById('btn-back');
+btn2.onclick = function () {
+    window.location = './main.html';
+}
 //Tìm học viên
 btn.onclick = function(e) {
     e.preventDefault();

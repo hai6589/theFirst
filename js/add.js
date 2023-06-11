@@ -5,6 +5,11 @@ var address = document.getElementById('adress');
 var message = document.getElementById('add');
 let url = 'https://646b70fd7d3c1cae4ce3cdba.mockapi.io/hocvien'
 
+let btn1 = document.getElementById('btn-back');
+btn1.onclick = function () {
+    window.location = './main.html';
+}
+
 btn.onclick = function(e){
     e.preventDefault()
     postStudent();
