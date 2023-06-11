@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .container{
+            display: flex;
+        }
+        form{
+            width: 600px;
+        }
+    a{text-decoration: none;}
+        .form{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-primary">Chào mừng bạn đến với quản lí học viên</h1>
+    <div class="container">
+        <form action="">
+            <h3 class="text-primary">Đăng ký</h3>
+            <div class="form-group">
+                <label for="">Avatar</label>
+                <input type="file" class="form-control">
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="">Username</label>
+                <input type="text" class="form-control">
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" class="form-control">
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="">Re-password</label>
+                <input type="password" class="form-control">
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" class="form-control">
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="">Age</label>
+                <input type="number" class="form-control">
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="">Birthday</label>
+                <input type="date" class="form-control">
+                <input type="month" class="form-control">
+                <input type="datetime-local" class="form-control">
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="">Gender</label><br>
+                <input type="radio" name="gender" class="ml-4" value="nam">Nam
+                <input type="radio" name="gender" class="ml-4" value="nu">Nữ
+                <input type="radio" name="gender" class="ml-4" value="khongxacdinh">Không xác định
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="">Level</label><br>
+                <input type="checkbox" name="level" value="parents" class="ml-4">Parents
+                <input type="checkbox" name="level" value="student" class="ml-4">Student
+                <input type="checkbox" name="level" value="teacher" class="ml-4">Teacher
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="">Country</label>
+                <select class="form-control">
+                    <option value="vietname">Việt Nam</option>
+                    <option value="lao">Lào</option>
+                    <option value="campuchia">Campuchia</option>
+                    <option value="thailan">ThaiLan</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Address</label>
+                <textarea class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="button" class="btn btn-primary mt-2">Submit</button>
+            </div>
+        </form>
+
+       
+
+    </div>
+    <form action="" class="form">
+        <h3 class="text-primary">Đăng Nhập</h3>
+        <div class="form-group">
+            <label for="">Username</label>
+            <input type="text" class="form-control">
+            <span></span>
+        </div>
+        <div class="form-group">
+            <label for="">Email</label>
+            <input type="email" class="form-control">
+            <span></span>
+        </div>
+        <div class="form-group">
+            <label for="">Password</label>
+            <input type="password" class="form-control">
+            <span></span>
+        </div>
+
+        <div class="form-group">
+            <button type="button" class="btn btn-primary mt-2"><a href="/html/main.html">Login</a></button>
+        </div>
+        
+    </form>
+
+    <script src="/js/form.js"></script>
+</body>
+</html>
