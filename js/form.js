@@ -1,4 +1,6 @@
-let btn1 = document.getElementById('btn-back');
-btn1.onclick = function () {
-    window.location = '../html/main.html';
+let btn = document.getElementById('btn-back');
+
+btn.onclick = function (e){
+    e.preventDefault();
+    window.location = "../html/main.html"
 }
