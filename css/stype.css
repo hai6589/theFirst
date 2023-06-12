@@ -18,3 +18,9 @@
     margin-bottom: 16px;
     flex-direction: column;
 }
+.main {
+    background: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
