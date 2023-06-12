@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 .form {
-    width: 600px;
+    width: 350px;
     min-height: 100px;
-    padding: 32px 24px;
+    padding: 32px 20px;
     background: #fff;
     border-radius: 2px;
-    margin: 24px;
+    margin: 16px;
     align-self: center;
     box-shadow: 0 2px 5px 0 rgba(51,62,73,.1);
 }
