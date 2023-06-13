@@ -1,5 +1,5 @@
 let btn = document.getElementById('btn1');
 
-btn.onclick = function (e){
-    window.location = "../theFirst/html/main.html"
+btn.onclick = function (){
+    window.location = '../html/main.html';
 }
