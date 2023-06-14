@@ -105,7 +105,7 @@ function getData(){
             let listData = await res.json();
             for(let i=0; i < listData.length; i++){
                 let dataUser = listData[i];
-                if(dataUser.name === username && dataUser.password){
+                if(dataUser.name === username && dataUser.password === password){
                     window.location = '../html/main.html';
                 }
             }
