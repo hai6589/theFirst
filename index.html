@@ -1,68 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../theFirst/css/stype.css">
-    <link rel="stylesheet" href="../theFirst/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <title>Document</title>
-    <style>
-        .text-primary {
-            text-align: center;
-        }
+    <style>.text-primary{ text-align: center;}
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form {
+    width: 350px;
+    min-height: 100px;
+    padding: 32px 20px;
+    background: #fff;
+    border-radius: 2px;
+    margin: 16px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51,62,73,.1);
+}
+.form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
     </style>
 </head>
-
 <body>
     <h1 class="text-primary">Chào mừng bạn đến với quản lí học viên</h1>
     <div class="container">
         <form action="" class="form">
-            <h3 class="text-primary">Đăng Nhập</h3>
+            <h3 class="text-primary">Đăng ký</h3>
             <div class="form-group">
                 <label for="">Username</label>
-                <input type="text" class="form-control" placeholder="Username">
+                <input type="text" name="name" class="form-control" placeholder="user">
                 <span></span>
             </div>
             <div class="form-group">
                 <label for="">Email</label>
-                <input type="email" class="form-control" placeholder="Email">
+                <input type="email" name="email" class="form-control" placeholder="VD:hai123@gmail.com">
                 <span></span>
             </div>
             <div class="form-group">
                 <label for="">Password</label>
-                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" name="password" class="form-control"placeholder="password">
                 <span></span>
             </div>
             <div class="form-group">
                 <label for="">Re-password</label>
-                <input type="password" class="form-control" placeholder="Re-password">
+                <input type="password" name="re-password" class="form-control" placeholder="Re-password">
                 <span></span>
             </div>
-            <div class="form-group">
-                <button type="button" class="btn btn-primary mt-2">Submit</button>
-            </div>
+           <div class="form-group">
+            <button class="btn btn-primary" id="btn">Submit</button>
+           </div>
+            
         </form>
         <form action="" class="form">
             <h3 class="text-primary">Đăng Nhập</h3>
             <div class="form-group">
                 <label for="">Username</label>
-                <input type="text" class="form-control" placeholder="Username">
+                <input type="text" id="user" class="form-control">
                 <span></span>
             </div>
             <div class="form-group">
                 <label for="">Password</label>
-                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" id="pass" class="form-control">
                 <span></span>
             </div>
-
+    
             <div class="form-group">
-                <button class="btn btn-primary" id="btn1">Login</button>
+                <button type="button" class="btn btn-primary">Login</button>
             </div>
+            
         </form>
     </div>
-    <script src="../theFirst/js/form.js"></script>
+    <script src="./js/form.js"></script>
 </body>
-
 </html>
