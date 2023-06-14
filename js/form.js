@@ -106,7 +106,7 @@ function getData(){
             for(let i=0; i < listData.length; i++){
                 let dataUser = listData[i];
                 if(dataUser.name === username && dataUser.password === password){
-                    window.location = '../html/main.html';
+                    window.location = '/theFirst/html/main.html';
                 }
             }
         })
